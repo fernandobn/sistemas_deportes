@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registro_noticias.aspx.cs" Inherits="sistemas_deportes.registro_noticias" %>
+
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,6 +14,7 @@
         .error {
             border-color: red;
         }
+
         .swal2-validation-message {
             color: red;
         }
@@ -61,11 +65,40 @@
                         <div class="col-md-6">
                             <h1 class="text-center">Registro de noticias</h1>
                             <br />
-                            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+                            <asp:GridView ID="lista_noticias" runat="server" CssClass="table table-striped table-bordered" AutoGenerateColumns="False" DataKeyNames="ID_Noticia" OnRowEditing="lista_noticias_RowEditing" OnRowUpdating="lista_noticias_RowUpdating" OnRowCancelingEdit="lista_noticias_RowCancelingEdit" OnRowDeleting="lista_noticias_RowDeleting">
+                                <Columns>
+                                    <asp:BoundField DataField="ID_Noticia" HeaderText="ID" ReadOnly="True" SortExpression="ID_Noticia" />
+                                    <asp:TemplateField HeaderText="Título" SortExpression="titulo">
+                                        <ItemTemplate>
+                                            <%# Eval("titulo") %>
+                                        </ItemTemplate>
+                                        <EditItemTemplate>
+                                            <asp:TextBox ID="txt_titulo" runat="server" Text='<%# Bind("titulo") %>' CssClass="form-control"></asp:TextBox>
+                                        </EditItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:TemplateField HeaderText="Contenido" SortExpression="contenido">
+                                        <ItemTemplate>
+                                            <%# Eval("contenido") %>
+                                        </ItemTemplate>
+                                        <EditItemTemplate>
+                                            <asp:TextBox ID="txt_contenido" runat="server" Text='<%# Bind("contenido") %>' CssClass="form-control"></asp:TextBox>
+                                        </EditItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:TemplateField HeaderText="Fecha" SortExpression="fecha">
+                                        <ItemTemplate>
+                                            <%# Eval("Fecha_Publicacion", "{0:dd/MM/yyyy}") %>
+                                        </ItemTemplate>
+                                        <EditItemTemplate>
+                                            <asp:TextBox ID="txt_fecha" runat="server" Text='<%# Bind("Fecha_Publicacion", "{0:dd/MM/yyyy}") %>' CssClass="form-control"></asp:TextBox>
+                                        </EditItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:CommandField ShowEditButton="True" ShowDeleteButton="True" />
+                                </Columns>
+                            </asp:GridView>
+
+
                             <br />
                             <asp:Button ID="Button2" runat="server" Text="Agregar Noticia" CssClass="btn btn-secondary" OnClientClick="openModal(); return false;" />
-                            <asp:Button ID="Button3" runat="server" Text="Eliminar Noticia" CssClass="btn btn-secondary" />
-                            <asp:Button ID="Button4" runat="server" Text="Modificar Noticia" CssClass="btn btn-secondary" />
                         </div>
                         <div class="col-md-1 text-right">
                             <asp:Button ID="Button1" runat="server" Text="Cerrar Sesión" CssClass="btn btn-success mx-auto d-block" />
