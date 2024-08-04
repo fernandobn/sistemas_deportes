@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|c:\\users\\user\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\datos_usuario_log.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|c:\\users\\user\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\datos_usuario_log.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|c:\\users\\user\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\registro_noticias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|c:\\users\\user\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\registro_noticias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_usuario_log.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\registro_usuario_log.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\login_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A4FBB21-E134-4522-97AB-528F9BAE6A39}|sistemas_deportes\\sistemas_deportes.csproj|solutionrelative:sistemas_deportes\\login_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 68,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,44 +34,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login_usuario.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\login_usuario.aspx.cs",
-              "RelativeDocumentMoniker": "sistemas_deportes\\login_usuario.aspx.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\login_usuario.aspx.cs",
-              "RelativeToolTip": "sistemas_deportes\\login_usuario.aspx.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAASwFkAAAAhAAAA",
+              "DocumentIndex": 0,
+              "Title": "datos_usuario_log.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx.cs",
+              "RelativeDocumentMoniker": "sistemas_deportes\\datos_usuario_log.aspx.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx.cs",
+              "RelativeToolTip": "sistemas_deportes\\datos_usuario_log.aspx.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAwH8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T03:11:56.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "registro_usuario_log.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_usuario_log.aspx.cs",
-              "RelativeDocumentMoniker": "sistemas_deportes\\registro_usuario_log.aspx.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_usuario_log.aspx.cs",
-              "RelativeToolTip": "sistemas_deportes\\registro_usuario_log.aspx.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAADgv4kAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T03:11:54.227Z"
+              "WhenOpened": "2024-08-04T14:55:07.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "datos_usuario_log.aspx",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx",
+              "RelativeDocumentMoniker": "sistemas_deportes\\datos_usuario_log.aspx",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\datos_usuario_log.aspx",
+              "RelativeToolTip": "sistemas_deportes\\datos_usuario_log.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-04T14:48:24.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "registro_noticias.aspx.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx.cs",
               "RelativeDocumentMoniker": "sistemas_deportes\\registro_noticias.aspx.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx.cs",
               "RelativeToolTip": "sistemas_deportes\\registro_noticias.aspx.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIcAAAAAAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAqwH4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T02:42:23.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "registro_noticias.aspx",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\sistemas_deportes\\sistemas_deportes\\registro_noticias.aspx",
               "RelativeDocumentMoniker": "sistemas_deportes\\registro_noticias.aspx",

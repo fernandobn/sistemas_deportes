@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Content/bootstrap.min.css" />
     <link href="estilos/estilos_administrador.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet"/>
     <style>
         .error {
             border-color: red;
@@ -37,13 +37,13 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="registro_noticias.aspx">
                                     <img src="img/periodico.png" alt="Noticias" />
                                     Noticias
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="datos_usuario_log.aspx">
                                     <img src="img/agregar-usuario.png" alt="Usuarios" />
                                     Usuarios
                                 </a>

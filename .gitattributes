@@ -11,4 +11,9 @@
 *.js text
 *.md text
 *.txt text
+# Auto-convert text files
+* text=auto
+
+# Explicitly set handling for specific file types
+*.sql text eol=lf
 packages/Stimulsoft.Reports.Engine.2024.3.3/Stimulsoft.Reports.Engine.2024.3.3.nupkg filter=lfs diff=lfs merge=lfs -text
