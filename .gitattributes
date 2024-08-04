@@ -1,0 +1,14 @@
+# Normalizar automáticamente los finales de línea para todos los archivos de texto.
+* text=auto
+
+# Especificar archivos específicos para normalizar
+*.cs text
+*.csproj text
+*.config text
+*.xml text
+*.json text
+*.css text
+*.html text
+*.js text
+*.md text
+*.txt text

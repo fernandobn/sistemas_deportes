@@ -1,0 +1,15 @@
+﻿body {
+}
+/* Clase para el color de fondo */
+.bg-color {
+    background: linear-gradient(to right, rgb(225, 239, 220), rgb(190, 220, 180), rgb(165, 206, 151));
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Clase para la imagen */
+.bg-image {
+    background-image: url('~/img/uefa.jpg'); /* Cambia esta URL a la de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
